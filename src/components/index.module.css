@@ -1,0 +1,57 @@
+.textInput{
+    padding: 10px 8px;
+    width: 300px;
+    border: 0;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    margin-right: 60px;
+    font-size: 16px;
+    border-radius: 0px!important;
+}
+
+input,button{
+    padding: 9px 10px;
+    border: 0;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.formWrapper form{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.submitButton{
+    background-color: rgb(83, 167, 83);
+    color: white;
+    margin-right: 10px;
+}
+
+.deleteButton{
+    background-color: red;
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.todoItemWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todoItem{
+    margin-bottom: 20px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.todoItem span{
+    color: rgb(153, 153, 153);
+    font-size: 13px;
+}
+
+.todoItemWrapper button{
+    margin-left: 5px;
+}
+.completed{
+    background-color: rgba(73, 187, 73, 0.479);
+}
